@@ -1,0 +1,192 @@
+/*-------- HEADER -----------------*/
+
+.navbar-default{
+    background:transparent;
+    border:none !important;
+}
+.navbar-nav li a:hover{
+    color:white;
+}
+.navbar-default .clear_botton{
+  padding: .5rem 2rem;
+  text-transform: uppercase;
+  font-size: 12px;
+  color:white;
+  border: 2px solid white;
+  margin-top: 1rem;
+}
+.collapse.in{
+  background-color:transparent !important;
+}
+.collapse.in .nav > li > a {
+  padding: 0px;
+}
+.collapse.in ul li {
+  text-align:right;
+
+}
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:hover, .navbar-inverse .navbar-nav .active a:focus
+.spacer{
+   background-color:transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    text-transform:uppercase;
+}
+
+.navbar ul {
+  float:right;
+}
+
+#nav_botton {
+  padding:0.4rem 2rem;
+  text-transform:uppercase;
+  margin-top: 1rem;
+}
+
+#nav_botton:hover{
+	background:#efbd00;
+	color:white;
+}
+
+/*-------- MAIN -----------------*/
+
+.spacer{
+    height:100px;
+}
+
+section#first .jumbotron{
+	background: url(../img/main_photo.png) no-repeat top center;
+	color:#fff;
+	height:680px;
+	overflow:none;
+  background-size: cover;
+
+}
+
+section#first .jumbotron strong{
+  margin-top:60px;
+  color: #084571;
+}
+
+section#first .jumbotron h1{
+  font-family: "PT Sans";
+	font-size: 45px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 50.4px;
+  margin-top: 3cm;
+
+}
+
+section#first .jumbotron p{
+  font-family: "PT Sans";
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+.content{
+	padding:5rem 0;
+}
+.content_centered{
+	text-align:center;
+}
+.content h2{
+	color:#082898;
+	margin:0 0 1rem;
+	font-size:40px;
+}
+
+.yellow_button{
+	color:white;
+	text-transform:uppercase;
+	background:#f2a500;
+	display:inline-block;
+	padding:1rem 3rem;
+	font-size:16px;
+}
+.yellow_button:hover{
+	background:#efbd00;
+	color:white;
+}
+
+.clear_botton {
+    padding: .5rem 2rem;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: white;
+    border: 2px solid white;
+    margin-top: 1rem;
+}
+
+.circle_background {
+  background: url(../img/ellipse.png) no-repeat top center;
+  background-size: contain;
+}
+/*.circle {
+  border-width: 3px;
+  border-color: rgb(225, 225, 225);
+  border-style: solid;
+  border-radius: 50%;
+  position: inherit;
+  left: 937px;
+  top: 907px;
+  width: 513px;
+  height: 513px;
+  vertical-align: middle;
+  /*z-index: 3;*/
+
+  .content_background_green {
+  background-color:#56d0b5
+}
+
+#background_2 {
+	background: url(../img/background_2.png) no-repeat top center;
+	color:#fff;
+	height:500px;
+	overflow:none;
+  background-size: cover;
+
+}
+
+#background_3 {
+	background: url(../img/background_3.png) no-repeat top center;
+	color:#fff;
+	height:500px;
+	overflow:none;
+  background-size: cover;
+}
+#background_4 {
+	background: url(../img/background_4.png) no-repeat top center;
+	color:#fff;
+	height:500px;
+	overflow:none;
+  background-size: cover;
+}
+
+jumbotron#second {
+  padding: 0;
+  margin: 0;
+}
+form {
+  overflow: hidden;
+}
+input {
+  float: right;
+  clear: both;
+}
+
+.brand_image {
+    position: relative;
+    width: 100%;
+    padding-bottom: 40%;
+    overflow: hidden;
+}
+.cambridge_customers{
+  margin-bottom: 4rem;
+}
